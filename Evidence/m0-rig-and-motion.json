@@ -1,0 +1,50 @@
+{
+  "blender": "5.2.1 LTS",
+  "armature": "RoboRig",
+  "bones": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Head",
+    "UpperArm.L",
+    "Forearm.L",
+    "Hand.L",
+    "UpperArm.R",
+    "Forearm.R",
+    "Hand.R",
+    "Thigh.L",
+    "Shin.L",
+    "Foot.L",
+    "Thigh.R",
+    "Shin.R",
+    "Foot.R"
+  ],
+  "boneCount": 16,
+  "meshCount": 1,
+  "vertices": 11813,
+  "firstMeshDimensions": [
+    0.9803,
+    1.345,
+    1.7026
+  ],
+  "actions": {
+    "Idle": 60,
+    "Run": 30,
+    "Turn": 30,
+    "Dribble": 24,
+    "Receive": 26,
+    "Pass": 34,
+    "Shoot": 42,
+    "Tackle": 32,
+    "ContactLean": 24
+  },
+  "contactsAt30Fps": {
+    "Dribble": 11,
+    "Receive": 11,
+    "Pass": 16,
+    "Shoot": 19,
+    "Tackle": 14
+  },
+  "toeBones": false,
+  "method": "Analytical two-bone IK with explicit knee poles, stance targets and contact-marked soccer actions"
+}

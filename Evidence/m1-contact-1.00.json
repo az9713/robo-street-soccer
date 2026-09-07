@@ -1,0 +1,210 @@
+{
+    "passed": true,
+    "failure": "",
+    "practiceSpeed": 1.0,
+    "fixedDeltaTime": 0.00999999325722456,
+    "headOnContacts": 6,
+    "glancingContacts": 2,
+    "sustainedPushDrift": 0.0,
+    "maximumTiltDegrees": 0.0,
+    "events": [
+        {
+            "type": "game_reset",
+            "simulationTime": 0.0,
+            "actor": "game",
+            "target": "practice",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.125,
+                "z": -5.670000076293945
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "Explicit dead-ball practice reset"
+        },
+        {
+            "type": "practice_speed",
+            "simulationTime": 0.0,
+            "actor": "game",
+            "target": "1.00",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.125,
+                "z": -5.670000076293945
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "Fixed simulation step remains 0.01 seconds"
+        },
+        {
+            "type": "game_reset",
+            "simulationTime": 0.0,
+            "actor": "game",
+            "target": "practice",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.125,
+                "z": -5.670000076293945
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "Explicit dead-ball practice reset"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 0.40999969840049746,
+            "actor": "Orange One",
+            "target": "Orange Two",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "head_on_block"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 0.40999969840049746,
+            "actor": "Orange Two",
+            "target": "Orange One",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "head_on_block"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 0.7699994444847107,
+            "actor": "Orange One",
+            "target": "Orange Two",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "head_on_block"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 0.7699994444847107,
+            "actor": "Orange Two",
+            "target": "Orange One",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "head_on_block"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 1.1299991607666016,
+            "actor": "Orange One",
+            "target": "Orange Two",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "head_on_block"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 1.1299991607666016,
+            "actor": "Orange Two",
+            "target": "Orange One",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "head_on_block"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 1.9099986553192139,
+            "actor": "Orange One",
+            "target": "Orange Two",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "glancing_brush"
+        },
+        {
+            "type": "body_contact",
+            "simulationTime": 1.9099986553192139,
+            "actor": "Orange Two",
+            "target": "Orange One",
+            "ballPosition": {
+                "x": 7.0,
+                "y": 0.10999998450279236,
+                "z": 0.0
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "glancing_brush"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 0,
+    "bytes": 175035436,
+    "seconds": 22.689741134643556,
+    "output": "Builds/RoboStreetSoccer-M1/RoboStreetSoccer.exe",
+    "unity": "6000.5.7f1",
+    "fixedDeltaTime": 0.00999999325722456
+}

@@ -1,0 +1,38 @@
+﻿{
+    "package":  "RoboStreetSoccer-v0.1.0-Windows.zip",
+    "sha256":  "af27b8b906748c54d406f4e5f116accf56ba51eb175953879b9eebd5a20f1846",
+    "bytes":  42032089,
+    "sourceBuild":  "Builds/RoboStreetSoccer/RoboStreetSoccer.exe",
+    "sourceBuildSha256":  "d05c5848f7cc2eb32ff6016f54762ee3c666a69b862be297df2390830c1ea8cf",
+    "assemblySha256":  "b64f219a5b5be30e270d714d41512c9719e09df80c4cb8eb87bb69bdd50ea8b5",
+    "runtimeManifestSha256":  "bf30f9d0ccba6e44a511c5b6b3d44990f9ebdecd5da6e6cf2d96298b284fad9c",
+    "buildEvidence":  {
+                          "name":  "match-windows-build.json",
+                          "sha256":  "5cf41b122fc1ad3c1b2172cb742490f79f4c02c81a57f82e50400081dce2c524"
+                      },
+    "acceptanceEvidence":  [
+                               {
+                                   "name":  "match-acceptance-0.25.json",
+                                   "sha256":  "07a56ef7f9650631833fcb24732235825ea870ccb3252c2584f5e7abd6e38027"
+                               },
+                               {
+                                   "name":  "match-acceptance-0.50.json",
+                                   "sha256":  "53cf453ccb70206ea7b96fb79536895e3b0bd4fde3452c12185fca07a00facb6"
+                               },
+                               {
+                                   "name":  "match-acceptance-1.00.json",
+                                   "sha256":  "caedfa9fe76679442c86607dea9d8e91ed98413aa5d2d8f955c384cf5e54b21b"
+                               }
+                           ],
+    "excluded":  [
+                     "UnityProject/Library",
+                     "UnityProject/Temp",
+                     "UnityProject/Logs",
+                     "*.pdb",
+                     "*BurstDebugInformation*",
+                     "*.log",
+                     ".env",
+                     "credentials",
+                     "private profiles"
+                 ]
+}

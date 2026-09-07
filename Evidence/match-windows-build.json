@@ -1,0 +1,14 @@
+{
+    "result": "Succeeded",
+    "errors": 0,
+    "warnings": 0,
+    "bytes": 109325518,
+    "seconds": 19.101396560668947,
+    "output": "Builds/RoboStreetSoccer/RoboStreetSoccer.exe",
+    "sha256": "D05C5848F7CC2EB32FF6016F54762EE3C666A69B862BE297DF2390830C1EA8CF",
+    "assemblySha256": "B64F219A5B5BE30E270D714D41512C9719E09DF80C4CB8EB87BB69BDD50EA8B5",
+    "managedDebugPath": "/_/workspace/UnityProject/Library/Bee/artifacts/.../Assembly-CSharp.pdb",
+    "personalPathScan": "PASS: managed assembly contains no original checkout or account-specific path",
+    "unity": "6000.5.7f1",
+    "fixedDeltaTime": 0.00999999325722456
+}

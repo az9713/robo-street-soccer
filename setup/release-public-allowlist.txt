@@ -1,0 +1,42 @@
+# Public publication allowlist for az9713/robo-street-soccer
+# Build a clean publication snapshot from these paths; do not publish local git history.
+
+README.md
+RELEASE-NOTES.md
+RELEASE-GUIDE.md
+SPEC.md
+PROJECT-BRIEF.md
+DEVELOPMENT-LOG.md
+PROVENANCE.md
+M1-RESULTS.md
+Evidence/*.json                 # sanitize paths and private fields first
+Evidence/match-captures/match-default-four-robot-play-1.00.png
+Evidence/match-captures/match-receive-1.00.png
+Evidence/match-captures/match-shot-contact-1.00.png
+Evidence/match-captures/match-tackle-contact-1.00.png
+Evidence/MotionReview/REPORT.md # only if it contains no local paths
+Evidence/MotionReview/PASS-RECEIVE-GEOMETRY.md
+Release/receipt.json            # copied from the verified package receipt
+setup/release_package.ps1
+setup/release_verify.ps1
+setup/release-public-allowlist.txt
+UnityProject/Assets/
+UnityProject/Packages/
+UnityProject/ProjectSettings/
+UnityProject/.vscode/
+UnityProject/UnityProject.slnx
+SourceAssets/Robot/RoboPlayer.blend
+SourceAssets/Robot/RoboPlayerSoccer.blend
+SourceAssets/Robot/soccer_motion.py
+SourceAssets/Robot/sanitize_texture_paths.py
+SourceAssets/Robot/textures/Image_0.jpg
+SourceAssets/Robot/textures/Image_1.jpg
+SourceAssets/Robot/textures/Image_2.jpg
+SourceAssets/Robot/textures/Image_3.jpg
+# Explicitly excluded: SourceAssets/Robot/Backups/ (private pre-sanitize originals)
+
+# Exclude unconditionally:
+# Builds/, UnityProject/Library/, Temp/, Logs/, UserSettings/, Obj/
+# UnityProject/Assets/csc.rsp and csc.rsp.meta (local compiler metadata)
+# *.log, *.pdb, *.db, *.sqlite*, .env, credentials, private profiles,
+# raw transcripts, raw agent/session data, personal notes and unrelated assets.

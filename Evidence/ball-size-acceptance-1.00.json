@@ -1,0 +1,208 @@
+{
+    "passed": true,
+    "failure": "",
+    "practiceSpeed": 1.0,
+    "fixedDeltaTime": 0.00999999325722456,
+    "passReceived": 1,
+    "shotContacts": 1,
+    "events": [
+        {
+            "type": "game_reset",
+            "simulationTime": 0.0,
+            "actor": "game",
+            "target": "practice",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.125,
+                "z": -5.670000076293945
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "Explicit dead-ball practice reset"
+        },
+        {
+            "type": "practice_speed",
+            "simulationTime": 0.0,
+            "actor": "game",
+            "target": "1.00",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.125,
+                "z": -5.670000076293945
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "Fixed simulation step remains 0.01 seconds"
+        },
+        {
+            "type": "game_reset",
+            "simulationTime": 0.0,
+            "actor": "game",
+            "target": "practice",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.125,
+                "z": -5.670000076293945
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "contactGap": -1.0,
+            "detail": "Explicit dead-ball practice reset"
+        },
+        {
+            "type": "dribble_contact",
+            "simulationTime": 0.3699997365474701,
+            "actor": "Orange One",
+            "target": "ball",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.10999999195337296,
+                "z": -4.9857025146484379
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": -5.960464477539063e-7,
+                "z": 3.629467010498047
+            },
+            "contactGap": 0.0,
+            "detail": "Discrete physical tap"
+        },
+        {
+            "type": "dribble_contact",
+            "simulationTime": 1.3599990606307984,
+            "actor": "Orange One",
+            "target": "ball",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.10999999195337296,
+                "z": -1.390699863433838
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": -5.885958671569824e-7,
+                "z": 3.6294655799865724
+            },
+            "contactGap": 0.0,
+            "detail": "Discrete physical tap"
+        },
+        {
+            "type": "pass_attempt",
+            "simulationTime": 1.8099987506866456,
+            "actor": "Orange One",
+            "target": "Orange Two",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.10999999195337296,
+                "z": 0.2516220211982727
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": -5.960464477539063e-7,
+                "z": 3.5768253803253176
+            },
+            "contactGap": -1.0,
+            "detail": "Assisted lead selected"
+        },
+        {
+            "type": "pass_released",
+            "simulationTime": 2.3499982357025148,
+            "actor": "Orange One",
+            "target": "Orange Two",
+            "ballPosition": {
+                "x": -1.2000000476837159,
+                "y": 0.10999999195337296,
+                "z": 2.2043590545654299
+            },
+            "ballVelocity": {
+                "x": 0.0,
+                "y": -5.960464477539063e-7,
+                "z": 3.6278514862060549
+            },
+            "contactGap": 0.0,
+            "detail": "Release at foot contact"
+        },
+        {
+            "type": "receive_attempt",
+            "simulationTime": 2.3699982166290285,
+            "actor": "Orange Two",
+            "target": "ball",
+            "ballPosition": {
+                "x": -1.077584147453308,
+                "y": 0.11000379920005799,
+                "z": 2.2799036502838136
+            },
+            "ballVelocity": {
+                "x": 6.114570617675781,
+                "y": -0.0015181377530097962,
+                "z": 3.7777934074401857
+            },
+            "contactGap": -1.0,
+            "detail": "distance=2.83 arrival=0.48"
+        },
+        {
+            "type": "pass_received",
+            "simulationTime": 2.749998092651367,
+            "actor": "Orange Two",
+            "target": "Orange One",
+            "ballPosition": {
+                "x": 1.0758072137832642,
+                "y": 0.11000000685453415,
+                "z": 3.691704511642456
+            },
+            "ballVelocity": {
+                "x": -0.04620997980237007,
+                "y": 0.0,
+                "z": 0.5602734088897705
+            },
+            "contactGap": 0.0,
+            "detail": "Physical cushion confirmed control"
+        },
+        {
+            "type": "shot_attempt",
+            "simulationTime": 3.3499975204467775,
+            "actor": "Orange Two",
+            "target": "north_goal",
+            "ballPosition": {
+                "x": 1.0184803009033204,
+                "y": 0.11000000685453415,
+                "z": 4.226809024810791
+            },
+            "ballVelocity": {
+                "x": -0.6205337643623352,
+                "y": 0.0,
+                "z": 1.7870677709579468
+            },
+            "contactGap": 0.0,
+            "detail": "localBall=(0.07, 0.11, 0.40) robotSpeed=1.74 ballSpeed=1.89"
+        },
+        {
+            "type": "shot_contact",
+            "simulationTime": 3.989997148513794,
+            "actor": "Orange Two",
+            "target": "north_goal",
+            "ballPosition": {
+                "x": 0.666698157787323,
+                "y": 0.10999999940395355,
+                "z": 5.447214126586914
+            },
+            "ballVelocity": {
+                "x": -0.5011797547340393,
+                "y": -5.960464477539063e-7,
+                "z": 1.9181381464004517
+            },
+            "contactGap": 0.0,
+            "detail": "Instep contact applied one impulse"
+        }
+    ]
+}
