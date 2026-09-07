@@ -20,7 +20,7 @@ The approved physical ball radius is 0.11 m (0.22 m diameter) with mass approxim
 
 Board rebounds remain live. A complete exit outside a valid goal creates a short kick-in setup, awards the restart to the team that did not touch the ball last, clears opponents and resumes only after physical restart contact. Valid goals take precedence.
 
-Known prototype limit: a rare exact double-board corner trap first receives physical board-clearance handling. If it remains stationary for four simulation seconds, a clearly logged neutral referee dead-ball drop may recover it. The score is preserved, no player is blamed and live possession is never teleported; final acceptance must verify this path.
+Observed prototype behavior: an exact double-board corner trap first receives physical board-clearance handling. If it remains stationary for four simulation seconds, one clearly logged neutral referee dead-ball drop recovers it. One such recovery occurred in each 60-second exhibition run. The score is preserved, no player is blamed and live possession is never teleported.
 
 ### Current verification boundary
 

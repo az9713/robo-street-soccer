@@ -12,7 +12,7 @@ The package receipt records the ZIP hash and size, source executable hash, manag
 
 ## Rebuild the source
 
-Open `UnityProject` in Unity `6000.5.7f1`, open `Assets/Soccer/Scenes/RoboStreetSoccer.unity`, and press Play. The verified editor build command is **Robo Street Soccer → Build final 2v2 scene**. The source snapshot excludes Unity caches and generated local compiler metadata.
+Open `UnityProject` in Unity `6000.5.7f1`, open `Assets/Soccer/Scenes/RoboStreetSoccer.unity`, and press Play. The **Robo Street Soccer → Build final 2v2 scene** menu item regenerates the final scene. To produce a Windows executable, use Unity Build Profiles for Windows or run `-executeMethod SoccerProjectSetup.BuildWindows`. The source snapshot excludes Unity caches and generated local compiler metadata.
 
 ## Modes and controls
 
@@ -39,7 +39,7 @@ The visible ball shell is intentionally larger for readability. Shooting may use
 
 Head-on robot contact blocks or slows with bounded displacement. Glancing contact brushes past. Contact does not silently transfer possession or bulldoze a robot across the pitch. Normal board rebounds remain live. A complete exit outside a valid goal creates a short kick-in setup for the team that did not touch the ball last; opponents clear space and play resumes only after physical restart contact. A valid goal takes precedence.
 
-The final exhibition run exercised the rare double-board corner recovery: physical board-clearance attempts run first, then one clearly logged neutral referee dead-ball drop occurs after four simulation seconds of a pinned corner. One such recovery occurred in the 60-second exhibition; the score is preserved, no player is blamed and live possession is not teleported.
+The final exhibition run exercised the double-board corner recovery: physical board-clearance attempts run first, then one clearly logged neutral referee dead-ball drop occurs after four simulation seconds of a pinned corner. One such recovery occurred in each 60-second exhibition run; the score is preserved, no player is blamed and live possession is not teleported.
 
 ## Evidence and limitations
 
