@@ -59,4 +59,14 @@ The game has no online multiplayer, trained-model selection, persistent learning
 
 The images are representative rendered captures; the JSON receipts in `Evidence/` provide the measured acceptance evidence.
 
+## Match video
+
+[![Open the Robo Street Soccer match capture](docs/media/match1-poster.jpg)](https://az9713.github.io/robo-street-soccer/MATCH-VIDEO.html)
+
+[Watch the 44.65-second match capture](https://az9713.github.io/robo-street-soccer/MATCH-VIDEO.html) or [download the compressed MP4](docs/media/match1.mp4).
+
+## Development journey
+
+[Read the illustrated development journey](https://az9713.github.io/robo-street-soccer/DEVELOPMENT-JOURNEY.html) or [open the Markdown source](DEVELOPMENT-JOURNEY.md). It follows the project from the morning voice brainstorm through the specification gate, first playable build, human ball/camera/kick corrections, three delegated implementation agents, failed fixtures and verified public release.
+
 See [RELEASE-GUIDE.md](RELEASE-GUIDE.md) for player-facing details, [RELEASE-NOTES.md](RELEASE-NOTES.md) for v0.1.0 changes, and [PROVENANCE.md](PROVENANCE.md) for asset attribution and the public boundary.

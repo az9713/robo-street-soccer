@@ -123,13 +123,14 @@ Assert-ContainedPath -Child $destinationFull -Root $publicRoot -Label 'Source ex
 if (Test-Path -LiteralPath $destinationFull) { throw "Destination already exists; choose a new PublicRelease/source directory." }
 New-Item -ItemType Directory -Path $destinationFull -Force | Out-Null
 
-$rootFiles = @('.gitignore', 'README.md', 'RELEASE-NOTES.md', 'RELEASE-GUIDE.md', 'SPEC.md', 'PROJECT-BRIEF.md', 'DEVELOPMENT-LOG.md', 'PROVENANCE.md', 'M1-RESULTS.md')
+$rootFiles = @('.gitignore', '.nojekyll', 'README.md', 'DEVELOPMENT-JOURNEY.md', 'DEVELOPMENT-JOURNEY.html', 'MATCH-VIDEO.html', 'docs/media/match1.mp4', 'docs/media/match1-poster.jpg', 'RELEASE-NOTES.md', 'RELEASE-GUIDE.md', 'SPEC.md', 'PROJECT-BRIEF.md', 'DEVELOPMENT-LOG.md', 'PROVENANCE.md', 'M1-RESULTS.md')
 $setupFiles = @('setup/release_package.ps1', 'setup/release_verify.ps1', 'setup/release_export_source.ps1', 'setup/release-public-allowlist.txt', 'setup/release-test/run-release-tests.ps1')
 $evidenceImageFiles = @(
     'Evidence/match-captures/match-default-four-robot-play-1.00.png',
     'Evidence/match-captures/match-receive-1.00.png',
     'Evidence/match-captures/match-shot-contact-1.00.png',
-    'Evidence/match-captures/match-tackle-contact-1.00.png'
+    'Evidence/match-captures/match-tackle-contact-1.00.png',
+    'Evidence/full-court-camera-v2.png'
 )
 $evidenceDocumentFiles = @(
     'Evidence/MotionReview/REPORT.md',

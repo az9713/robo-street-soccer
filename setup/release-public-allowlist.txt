@@ -2,6 +2,12 @@
 # Build a clean publication snapshot from these paths; do not publish local git history.
 
 README.md
+DEVELOPMENT-JOURNEY.md
+DEVELOPMENT-JOURNEY.html
+MATCH-VIDEO.html
+docs/media/match1.mp4
+docs/media/match1-poster.jpg
+.nojekyll
 RELEASE-NOTES.md
 RELEASE-GUIDE.md
 SPEC.md
@@ -14,6 +20,7 @@ Evidence/match-captures/match-default-four-robot-play-1.00.png
 Evidence/match-captures/match-receive-1.00.png
 Evidence/match-captures/match-shot-contact-1.00.png
 Evidence/match-captures/match-tackle-contact-1.00.png
+Evidence/full-court-camera-v2.png
 Evidence/MotionReview/REPORT.md # only if it contains no local paths
 Evidence/MotionReview/PASS-RECEIVE-GEOMETRY.md
 Release/receipt.json            # copied from the verified package receipt

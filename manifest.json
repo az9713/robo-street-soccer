@@ -1,7 +1,7 @@
 {
   "export": "Robo Street Soccer public source snapshot",
   "evidence": [
-    null,
+    "match-windows-build.json",
     "match-acceptance-0.25.json",
     "match-acceptance-0.50.json",
     "match-acceptance-1.00.json"
@@ -11,6 +11,541 @@
       "path": ".gitignore",
       "bytes": 468,
       "sha256": "f4b3304e61c35e7e96ca56d0d818c695642829603730ca02d7f24d2e76a5c71f"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "DEVELOPMENT-JOURNEY.html",
+      "bytes": 42138,
+      "sha256": "322f67b8462db2fc5b38f87a1adda815ebbeb30098e9e1abfceff260e5710fe7"
+    },
+    {
+      "path": "DEVELOPMENT-JOURNEY.md",
+      "bytes": 43303,
+      "sha256": "c5944835f3609f406b779ac167fbf99b0295cf43d070c819f75b3390c1314a11"
+    },
+    {
+      "path": "DEVELOPMENT-LOG.md",
+      "bytes": 7710,
+      "sha256": "a7a6f3115716613b30898c5f4f986287941a080b58246c06122bb5bbaf273be7"
+    },
+    {
+      "path": "docs/media/match1-poster.jpg",
+      "bytes": 78220,
+      "sha256": "895e10bafc0d33c2442fa8d833313f92e0a16c129f048ede1954c0a5beb602bf"
+    },
+    {
+      "path": "docs/media/match1.mp4",
+      "bytes": 910760,
+      "sha256": "70f32d4dd3915c31ad36ce51b34d43a8a56f68ec86e627af091e2a5b8dfe96a6"
+    },
+    {
+      "path": "Evidence/ball-radius-doubled-acceptance-1.00.json",
+      "bytes": 6536,
+      "sha256": "845a304ea4ac71eb8ccdcd9dae0fd1e6d9dda55949e57134ebb3b5ec52ae8b57"
+    },
+    {
+      "path": "Evidence/ball-size-acceptance-1.00.json",
+      "bytes": 6464,
+      "sha256": "a1cbe4d4439033eac98d76fbd10a659533025f05f528c481b91afe48e18a453c"
+    },
+    {
+      "path": "Evidence/camera-controls-acceptance-1.00.json",
+      "bytes": 6536,
+      "sha256": "465eebb456cf678b7471c2b531f6a4c1dab508dd7da08fd0e3527be9a75beaf7"
+    },
+    {
+      "path": "Evidence/camera-tilt-range-acceptance-1.00.json",
+      "bytes": 6536,
+      "sha256": "3836aa817462dd6a49fcf465a3365372598ab00d9be8f893cebf736c92488c04"
+    },
+    {
+      "path": "Evidence/full-court-camera-acceptance-1.00.json",
+      "bytes": 6536,
+      "sha256": "6bde4e17d3929f4277e00113d977799886278105f1f0b145d7a687a959049e88"
+    },
+    {
+      "path": "Evidence/full-court-camera-v2.png",
+      "bytes": 143111,
+      "sha256": "be2712996c91b1566d792fbd9165cef4c598c76704b8e170e4a0ae5d16c74ee5"
+    },
+    {
+      "path": "Evidence/kick-assist-acceptance-0.25.json",
+      "bytes": 6500,
+      "sha256": "320ac49867a4b7f1b91fcfecec46ce83bcfa14f89cd4f45e3bfed14524ae136f"
+    },
+    {
+      "path": "Evidence/kick-assist-acceptance-0.50.json",
+      "bytes": 6499,
+      "sha256": "75c5a2d212214e9f79eb1b6ea69a1464cb8319d93a2b96154ef792e46f49f5fd"
+    },
+    {
+      "path": "Evidence/kick-assist-acceptance-1.00.json",
+      "bytes": 6499,
+      "sha256": "7b43680447aca1e6830a0119debd5e7a060ea6be7b37f14a4b3fa13372445e4a"
+    },
+    {
+      "path": "Evidence/m0-rig-and-motion.json",
+      "bytes": 904,
+      "sha256": "8e2c2b999a59e6970ecc9ef05f5f2f8d41d497d5d16d45292b04ed83d824bc49"
+    },
+    {
+      "path": "Evidence/m1-acceptance-0.25.json",
+      "bytes": 6543,
+      "sha256": "c6396a6a9821570423bb6050c3bc7159694460b43d02c54c1db597075480e9a6"
+    },
+    {
+      "path": "Evidence/m1-acceptance-0.50.json",
+      "bytes": 6542,
+      "sha256": "f9b73f7c87a1dbe41d84d51670f143ce8c52cb2ddd30e2df0ebca9174dacb903"
+    },
+    {
+      "path": "Evidence/m1-acceptance-1.00.json",
+      "bytes": 6542,
+      "sha256": "8f5227f2edef6d545b93fbe4ed903090ec6596f6c982c31ab96d3efa1dfbd0a9"
+    },
+    {
+      "path": "Evidence/m1-contact-0.25.json",
+      "bytes": 5884,
+      "sha256": "ab9b7b794fb8868ff4624629011aeef032054f07bf816691bb3596c7cdb7415c"
+    },
+    {
+      "path": "Evidence/m1-contact-0.50.json",
+      "bytes": 5883,
+      "sha256": "e94655bc5c0e6d846fa0dc4a5746c3c2042ea9ab49bc92922104b56de2e45714"
+    },
+    {
+      "path": "Evidence/m1-contact-1.00.json",
+      "bytes": 5883,
+      "sha256": "dba2bd825b8bc5674eba4d4b5329156c78486e879a2ac94c9b02272860a89c9c"
+    },
+    {
+      "path": "Evidence/m1-visual-0.25.json",
+      "bytes": 6496,
+      "sha256": "b4bd3ac7c2d26dd57d5f0bde0b6b227d91f82d66e4563ee727fd91c2e200a93c"
+    },
+    {
+      "path": "Evidence/m1-visual-final-0.25.json",
+      "bytes": 6544,
+      "sha256": "96af53c19be274a3314fc3ec4a72ce3ab8ffc46f4129b1c4213c1216248f1ba7"
+    },
+    {
+      "path": "Evidence/m1-visual-window-0.25.json",
+      "bytes": 6495,
+      "sha256": "805b57a3092f6c0e6f04a791342b9bb3ba7b4a642d3e8488a1c0b1d4f078db61"
+    },
+    {
+      "path": "Evidence/m1-windows-build.json",
+      "bytes": 260,
+      "sha256": "96970ef7c48741d8fd1d79c180429530abeaa6c1cccbbb623f7a87146452f56d"
+    },
+    {
+      "path": "Evidence/match-acceptance-0.25.json",
+      "bytes": 247136,
+      "sha256": "07a56ef7f9650631833fcb24732235825ea870ccb3252c2584f5e7abd6e38027"
+    },
+    {
+      "path": "Evidence/match-acceptance-0.50.json",
+      "bytes": 247141,
+      "sha256": "53cf453ccb70206ea7b96fb79536895e3b0bd4fde3452c12185fca07a00facb6"
+    },
+    {
+      "path": "Evidence/match-acceptance-1.00.json",
+      "bytes": 260472,
+      "sha256": "caedfa9fe76679442c86607dea9d8e91ed98413aa5d2d8f955c384cf5e54b21b"
+    },
+    {
+      "path": "Evidence/match-captures/match-default-four-robot-play-1.00.png",
+      "bytes": 144395,
+      "sha256": "7d532cf38c880d5fcab0603fb61aa3f44530b1a8d53319c55ae1733066908e7d"
+    },
+    {
+      "path": "Evidence/match-captures/match-receive-1.00.png",
+      "bytes": 142189,
+      "sha256": "5ff6d5c5f76ec9bcd96a4f7489e9a7d9cfa1250093e0d0e434ac91faae026b2f"
+    },
+    {
+      "path": "Evidence/match-captures/match-shot-contact-1.00.png",
+      "bytes": 144374,
+      "sha256": "fd246936218dbe497cce0da165a15c065627a7cb472fe8c48b9468aa9ddaf35a"
+    },
+    {
+      "path": "Evidence/match-captures/match-tackle-contact-1.00.png",
+      "bytes": 144011,
+      "sha256": "5126c7cec97cd6027dcd8527206e7aaa7810b7d8b6e823ba111d7e728926d1a6"
+    },
+    {
+      "path": "Evidence/match-windows-build.json",
+      "bytes": 633,
+      "sha256": "5cf41b122fc1ad3c1b2172cb742490f79f4c02c81a57f82e50400081dce2c524"
+    },
+    {
+      "path": "Evidence/MotionReview/PASS-RECEIVE-GEOMETRY.md",
+      "bytes": 5180,
+      "sha256": "0a58a61f0457d84393a8cc395ccd0d920337a16d9c2acea4c8b8547b25aecfd0"
+    },
+    {
+      "path": "Evidence/MotionReview/REPORT.md",
+      "bytes": 5528,
+      "sha256": "e0e63e0b048bad49a7431cd974a560bcd8856aba9561e2ad4b824b897c99008a"
+    },
+    {
+      "path": "Evidence/package-verification-1.00.json",
+      "bytes": 247142,
+      "sha256": "5e68c7ee81b03916ea62fb1be7894c391d63bb69c43276544dfd6247d17394a6"
+    },
+    {
+      "path": "M1-RESULTS.md",
+      "bytes": 2193,
+      "sha256": "57c178aa09797908984d7ffed0038159b75a0eeec829d3038ec9252a9d03c1d0"
+    },
+    {
+      "path": "MATCH-VIDEO.html",
+      "bytes": 4926,
+      "sha256": "201646b41524855991f29b9b0706d6fc656c5811c73071a480e4f966c7868e89"
+    },
+    {
+      "path": "PROJECT-BRIEF.md",
+      "bytes": 6498,
+      "sha256": "dcf2b7569c051387293fa21d7a359d8cc4af19a04cd4b7b642b449c6fe746878"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 3624,
+      "sha256": "9d5424f4ec91d0d91d782c47244eb4d920db97ec3f1b52d97c86bc256abb7cf9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6378,
+      "sha256": "f7db300fccfaf72af34a765ef1ea97ca2dda930cceefbb477129c8a406375e7b"
+    },
+    {
+      "path": "RELEASE-GUIDE.md",
+      "bytes": 4085,
+      "sha256": "fba7644bdaf0f20fcad915c4ca61989d1c2cfec85fae37fdea41c2b81aafe16d"
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "bytes": 3870,
+      "sha256": "9ba80ba1c31abd6ccff2bbfc383cc7f692246329d7fe01bc686d7c5de67d0ae1"
+    },
+    {
+      "path": "Release/receipt.json",
+      "bytes": 1974,
+      "sha256": "cf6bbb80bde9c713ef636b837721ec46945fa2674db89763cb1e5f29da445c13"
+    },
+    {
+      "path": "setup/release_export_source.ps1",
+      "bytes": 13897,
+      "sha256": "60ffde75b486f76e490e44f8c8b4ece17651ac2cd6fa6235f780779a25659df6"
+    },
+    {
+      "path": "setup/release_package.ps1",
+      "bytes": 12123,
+      "sha256": "a5e20f20ab9e99a4debd4c58aedbbc85042d9df3311fc9c0541ac43d9658ac7d"
+    },
+    {
+      "path": "setup/release_verify.ps1",
+      "bytes": 8348,
+      "sha256": "06499eaf01f6b1e6baf37f4ba00ec04aba43b5b914839cea585af4848a2662ff"
+    },
+    {
+      "path": "setup/release-public-allowlist.txt",
+      "bytes": 1843,
+      "sha256": "3ea5fb1a60483e9104fd0ae14b9e20b4ace87f7b2323cad703a9233505b1ec05"
+    },
+    {
+      "path": "setup/release-test/run-release-tests.ps1",
+      "bytes": 7404,
+      "sha256": "3b8fd57a27e904e8283ee46e27a3cdc2b9c57145743f887696168e4945ff4a87"
+    },
+    {
+      "path": "SourceAssets/Robot/RoboPlayer.blend",
+      "bytes": 11046624,
+      "sha256": "9cf174971e5bd65165f988a39089dd46694e163ba9138cc8d4efa8000610a456"
+    },
+    {
+      "path": "SourceAssets/Robot/RoboPlayerSoccer.blend",
+      "bytes": 5408527,
+      "sha256": "663b3ed7c52c7e1655b5d7427ea5c6df9f66f50413a48403348a1df9bc9af4af"
+    },
+    {
+      "path": "SourceAssets/Robot/sanitize_texture_paths.py",
+      "bytes": 6901,
+      "sha256": "a5b8857b66102cac99710978ea73e61d80ba5359c4f3077b46133d2a862c76b3"
+    },
+    {
+      "path": "SourceAssets/Robot/soccer_motion.py",
+      "bytes": 11127,
+      "sha256": "545c7a7e1e5affabbfebb55bfccf00724556b75ea0e56183a27a07e25e3d41ad"
+    },
+    {
+      "path": "SourceAssets/Robot/textures/Image_0.jpg",
+      "bytes": 2840866,
+      "sha256": "27d5384bb48f66a21a86eba0c375b1bf2522c3230ee57263ff921264ac732bf9"
+    },
+    {
+      "path": "SourceAssets/Robot/textures/Image_1.jpg",
+      "bytes": 1321558,
+      "sha256": "dc729f6ce6fd06b94ca0a747c7f721a67d1cde2d374e2dc85ff8426da61f5a80"
+    },
+    {
+      "path": "SourceAssets/Robot/textures/Image_2.jpg",
+      "bytes": 1824230,
+      "sha256": "8c1d268088a896e1f48fc52721fb34743be5fee26f9f116b5998326bfa7ec90c"
+    },
+    {
+      "path": "SourceAssets/Robot/textures/Image_3.jpg",
+      "bytes": 66368,
+      "sha256": "b9949d5ac413976a2192b4a375c4bdfcf3bdf31eeb8d3063a090ceea935ebada"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 18925,
+      "sha256": "83a60fca0a6ba5aeae557561a9b73d993bdfbd2feda208e99a69eca149f8bada"
+    },
+    {
+      "path": "UnityProject/.vscode/extensions.json",
+      "bytes": 75,
+      "sha256": "99ad80dd86d99326e354f18a4a7f77a38434d39dad9c3503b3a9594e08bb01db"
+    },
+    {
+      "path": "UnityProject/.vscode/launch.json",
+      "bytes": 178,
+      "sha256": "314af30527d85081412909337f20badb462068cfd21ce03a89e406df22e38afa"
+    },
+    {
+      "path": "UnityProject/.vscode/settings.json",
+      "bytes": 1834,
+      "sha256": "d196838baf0950a45970c8956423c1e8a9b5f207cea98162f08d12682b222319"
+    },
+    {
+      "path": "UnityProject/Assets/Art.meta",
+      "bytes": 172,
+      "sha256": "cd5b942bc72e9aaa574475ab615bf4c58e376e14d463451d7b65773df982b03e"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot.meta",
+      "bytes": 172,
+      "sha256": "ebba6ab7ab337950411c13ae592197426833fef59a435bb46b9d011ee06a30e2"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/RoboPlayer.fbx",
+      "bytes": 1567068,
+      "sha256": "45438bd9d54f8b98b2e86da2d85fa3dd410d7121e496de5b5f1531d8fc78d373"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/RoboPlayer.fbx.meta",
+      "bytes": 2993,
+      "sha256": "fcab3f3ca811797a9ff8ef836580a896dc0330e440d069f63ca577e853cc5446"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbm.meta",
+      "bytes": 172,
+      "sha256": "7cbab1fc547fbf57355e8983c3019269daf695b3ca4a90d104851810242dd3c9"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbm/robot-basecolor.png",
+      "bytes": 5595958,
+      "sha256": "4bafab5b32ef29a6e1d45dfc522fd75c0ad6881b8d1f707a7ae7fa0018aa561c"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbm/robot-basecolor.png.meta",
+      "bytes": 3007,
+      "sha256": "7283a0acb0ed095f4c1c5ff479c2577a896f8a48de4ac419b366799fefd182c5"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbx",
+      "bytes": 1894860,
+      "sha256": "58c5414b36e76b9eee3c9be0631a5225c4d1e624f6c5625ce1c69951315c0817"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbx.meta",
+      "bytes": 10307,
+      "sha256": "a09fd315320ada9c7c3272061906247fc6b5e72ebc0695bd890aa134890f04ea"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/robot-basecolor.png",
+      "bytes": 5595958,
+      "sha256": "4bafab5b32ef29a6e1d45dfc522fd75c0ad6881b8d1f707a7ae7fa0018aa561c"
+    },
+    {
+      "path": "UnityProject/Assets/Art/Robot/robot-basecolor.png.meta",
+      "bytes": 3007,
+      "sha256": "4cd94d9fc297eb98d37818c95a6a12b7a7d581a27d1752acffb6802d9b316df7"
+    },
+    {
+      "path": "UnityProject/Assets/DefaultVolumeProfile.asset",
+      "bytes": 20476,
+      "sha256": "471e057ca2f1993c9deea80f2d6e6dc783c042fcaadce1c2b28ae6df6f78c7c4"
+    },
+    {
+      "path": "UnityProject/Assets/DefaultVolumeProfile.asset.meta",
+      "bytes": 189,
+      "sha256": "95310a467e13ebef6e44dc09f88c6a33926f868fa507680fabeb0dc7b6d49302"
+    },
+    {
+      "path": "UnityProject/Assets/README.md",
+      "bytes": 268,
+      "sha256": "3252af8bd7e484079eab2b369b86dcb45d666e2b36c6ebb5222c9458824532db"
+    },
+    {
+      "path": "UnityProject/Assets/README.md.meta",
+      "bytes": 158,
+      "sha256": "1a077d635cf903efbce1b36800f08efa88f345cdefb2552e7a5ffadaf084e80b"
+    },
+    {
+      "path": "UnityProject/Assets/Settings.meta",
+      "bytes": 172,
+      "sha256": "707d8c619d8000a04f8bed37a35c64ee60e007de441630957ac0997ddf186e99"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/DefaultVolumeProfile.asset",
+      "bytes": 24035,
+      "sha256": "463776c51ae49d4fef980e8fd268081b2f505610d79315003faae1acff8f4115"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/DefaultVolumeProfile.asset.meta",
+      "bytes": 189,
+      "sha256": "efbcb026cee6b8e32fdf27018c06b0515296a6ccbb43969e792fea270310700a"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/PC_Renderer.asset",
+      "bytes": 3439,
+      "sha256": "3d0b01d8ded3327263b6690be128a3de58d17c514943ae42fe743a3e084a9c79"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/PC_Renderer.asset.meta",
+      "bytes": 189,
+      "sha256": "b5df8ddb2708c6ed4c133a5ff9ee95a75cc20e4ee3ed6181366a61aedbaf31ec"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/PC_RPAsset.asset",
+      "bytes": 4635,
+      "sha256": "898548aaa793a78d30a56e80e647b2b277bd81a6a4f39d6db7b36008a929c276"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/PC_RPAsset.asset.meta",
+      "bytes": 189,
+      "sha256": "bb469b9b6f318e9e9bed29c3b2e73e79371c04743c6f95dd6603941f1cd3e53e"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+      "bytes": 27389,
+      "sha256": "7a3fad2904f2c49970ef35147b8c6e9327635d191a27b0a681512a95570e6d34"
+    },
+    {
+      "path": "UnityProject/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta",
+      "bytes": 189,
+      "sha256": "f61661d8bc8dbe531daf09f6211ef978c7ba145c9207c8e76524396ae0722d7c"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer.meta",
+      "bytes": 172,
+      "sha256": "45ec5266bb0a5a93cab3322a4144db563ae0b1d7651ade21f5168a6d2d108b35"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Animation.meta",
+      "bytes": 172,
+      "sha256": "3d2f4eee5a04989a86f753d92be1158287a0b8e0ba90fba6a25346d8a8c9a179"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Animation/RoboSoccer.controller",
+      "bytes": 8509,
+      "sha256": "6694b93123fdd26717d044e4fee5bd4e4c6a7995828f7d55b78ea730b2369461"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Animation/RoboSoccer.controller.meta",
+      "bytes": 188,
+      "sha256": "39ce90f7bd06f3cc01cca7cf7a2b11659138c0042d5a8c1787435e1603cd0f88"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Editor.meta",
+      "bytes": 172,
+      "sha256": "1b9d3a5c4216a99ade1f8a9cb8aed4e1db96538ea1aa5f55dda5ed849529dccb"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Editor/SoccerProjectSetup.cs",
+      "bytes": 24522,
+      "sha256": "22395e8aa8d8edea7e1054057b8d2d14595c3e13b85ab2d40074d5db80eecff2"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Editor/SoccerProjectSetup.cs.meta",
+      "bytes": 59,
+      "sha256": "7e7600b724bced1b1f957e3c1a7342eab86e1b359e4d9b18f6bd08cc1341d535"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials.meta",
+      "bytes": 172,
+      "sha256": "c285a9c8352a5b093afd980952dad7108b689f9fc6b0a211eb3778aaa4a7148e"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/Ball.mat",
+      "bytes": 3798,
+      "sha256": "21d53c66a1cf8a857074865c637a2238d7d28be2f1e9cafe66d1eee58430f09b"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/Ball.mat.meta",
+      "bytes": 188,
+      "sha256": "93aa847475d5a25019498c10155dd8fbe18456a97900a6483b2907e7504fa8fa"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/BallPhysics.physicMaterial",
+      "bytes": 367,
+      "sha256": "b8532ae29b61c0dc1e34c9f91a1c6b27aadb59e4575a7326776e921922b39de5"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/BallPhysics.physicMaterial.meta",
+      "bytes": 189,
+      "sha256": "a0ced7b284f4bbfe7716ed202343da5a1776e3129355b5c2301a325a3da0e2bf"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/BoardPhysics.physicMaterial",
+      "bytes": 368,
+      "sha256": "5ba94eecfd0beab33b1d1cc518d3da5f77a5427c26f45ee5abecfdefed8794c7"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/BoardPhysics.physicMaterial.meta",
+      "bytes": 189,
+      "sha256": "7b395cea4da9bfce03bfba32f1e7472e50f8c9d329f58220831a5c26fa2c2982"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/Boundary.mat",
+      "bytes": 3803,
+      "sha256": "c1bfcdb8e9c9905ea53de05bb98e361322c20fbed26519f09271430dc7561a03"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/Boundary.mat.meta",
+      "bytes": 188,
+      "sha256": "a9cbb1d67931dccaf734f423077bad1bb21a62c04bcf5ce0a167ad75729a60f9"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/CircleLines.mat",
+      "bytes": 3819,
+      "sha256": "4ccf4a01bcd101991114d1eeacb9524a87bb05eed3b5e4c615a109e25b517ce7"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/CircleLines.mat.meta",
+      "bytes": 188,
+      "sha256": "fceac99b6bef0cfad1bad8874fe7a8e544156ca5f91e6d894619db096920e58c"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/GoalFrame.mat",
+      "bytes": 3801,
+      "sha256": "87045821545006860612d23b07cbe1a6d48f0f7087cd7da5c6a219e5bc1c8a3f"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/GoalFrame.mat.meta",
+      "bytes": 188,
+      "sha256": "49c14d6dc246829e8544625c932b21ba4a0cdaf88794f88a1e0844fb50b5a752"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Materials/Lines.mat",
+      "bytes": 3796,
+      "sha256": "c762c4111849be7a06c2923bf3edf6b37e9a2c997d5d504a690ae50ad31ed22c"
     },
     {
       "path": "UnityProject/Assets/Soccer/Materials/Lines.mat.meta",
@@ -88,6 +623,11 @@
       "sha256": "c0985c15605e2968357e34c2d4504a36981abeff82ab29c5aa45c5016d2d039c"
     },
     {
+      "path": "UnityProject/Assets/Soccer/Scenes.meta",
+      "bytes": 172,
+      "sha256": "8f4cef29513b45470dd8868239d5968f589929e929bd0ae88ade37e3e2e3bda0"
+    },
+    {
       "path": "UnityProject/Assets/Soccer/Scenes/M1Practice.unity",
       "bytes": 116972,
       "sha256": "7773b7135585073a7e09f31b568633f4c8864197e94de21be21fb8fd6525444d"
@@ -98,119 +638,9 @@
       "sha256": "43daf8cd807232dcba50dbcf33824c3d22bd16e3e4f7abb3d18b54b417a17e58"
     },
     {
-      "path": "UnityProject/Assets/Soccer/Materials/Lines.mat",
-      "bytes": 3796,
-      "sha256": "c762c4111849be7a06c2923bf3edf6b37e9a2c997d5d504a690ae50ad31ed22c"
-    },
-    {
       "path": "UnityProject/Assets/Soccer/Scenes/RoboStreetSoccer.unity",
       "bytes": 137311,
       "sha256": "c47cfa52c0f569765cce7281ed2881ad76fe2f905c0d9d3eaa4bd17fedc57fd0"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/GoalFrame.mat.meta",
-      "bytes": 188,
-      "sha256": "49c14d6dc246829e8544625c932b21ba4a0cdaf88794f88a1e0844fb50b5a752"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/CircleLines.mat.meta",
-      "bytes": 188,
-      "sha256": "fceac99b6bef0cfad1bad8874fe7a8e544156ca5f91e6d894619db096920e58c"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Editor.meta",
-      "bytes": 172,
-      "sha256": "1b9d3a5c4216a99ade1f8a9cb8aed4e1db96538ea1aa5f55dda5ed849529dccb"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials.meta",
-      "bytes": 172,
-      "sha256": "c285a9c8352a5b093afd980952dad7108b689f9fc6b0a211eb3778aaa4a7148e"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scenes.meta",
-      "bytes": 172,
-      "sha256": "8f4cef29513b45470dd8868239d5968f589929e929bd0ae88ade37e3e2e3bda0"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts.meta",
-      "bytes": 172,
-      "sha256": "ad9693bdb5def42ddc095c984b61535542a866a5afd64f079f6b9715aab13eb0"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Animation/RoboSoccer.controller",
-      "bytes": 8509,
-      "sha256": "6694b93123fdd26717d044e4fee5bd4e4c6a7995828f7d55b78ea730b2369461"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Animation/RoboSoccer.controller.meta",
-      "bytes": 188,
-      "sha256": "39ce90f7bd06f3cc01cca7cf7a2b11659138c0042d5a8c1787435e1603cd0f88"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Editor/SoccerProjectSetup.cs",
-      "bytes": 24522,
-      "sha256": "22395e8aa8d8edea7e1054057b8d2d14595c3e13b85ab2d40074d5db80eecff2"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Editor/SoccerProjectSetup.cs.meta",
-      "bytes": 59,
-      "sha256": "7e7600b724bced1b1f957e3c1a7342eab86e1b359e4d9b18f6bd08cc1341d535"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/Ball.mat",
-      "bytes": 3798,
-      "sha256": "21d53c66a1cf8a857074865c637a2238d7d28be2f1e9cafe66d1eee58430f09b"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/Ball.mat.meta",
-      "bytes": 188,
-      "sha256": "93aa847475d5a25019498c10155dd8fbe18456a97900a6483b2907e7504fa8fa"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/BallPhysics.physicMaterial",
-      "bytes": 367,
-      "sha256": "b8532ae29b61c0dc1e34c9f91a1c6b27aadb59e4575a7326776e921922b39de5"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/BallPhysics.physicMaterial.meta",
-      "bytes": 189,
-      "sha256": "a0ced7b284f4bbfe7716ed202343da5a1776e3129355b5c2301a325a3da0e2bf"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/BoardPhysics.physicMaterial",
-      "bytes": 368,
-      "sha256": "5ba94eecfd0beab33b1d1cc518d3da5f77a5427c26f45ee5abecfdefed8794c7"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/BoardPhysics.physicMaterial.meta",
-      "bytes": 189,
-      "sha256": "7b395cea4da9bfce03bfba32f1e7472e50f8c9d329f58220831a5c26fa2c2982"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/Boundary.mat",
-      "bytes": 3803,
-      "sha256": "c1bfcdb8e9c9905ea53de05bb98e361322c20fbed26519f09271430dc7561a03"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/Boundary.mat.meta",
-      "bytes": 188,
-      "sha256": "a9cbb1d67931dccaf734f423077bad1bb21a62c04bcf5ce0a167ad75729a60f9"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/CircleLines.mat",
-      "bytes": 3819,
-      "sha256": "4ccf4a01bcd101991114d1eeacb9524a87bb05eed3b5e4c615a109e25b517ce7"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Materials/GoalFrame.mat",
-      "bytes": 3801,
-      "sha256": "87045821545006860612d23b07cbe1a6d48f0f7087cd7da5c6a219e5bc1c8a3f"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Animation.meta",
-      "bytes": 172,
-      "sha256": "3d2f4eee5a04989a86f753d92be1158287a0b8e0ba90fba6a25346d8a8c9a179"
     },
     {
       "path": "UnityProject/Assets/Soccer/Scenes/RoboStreetSoccer.unity.meta",
@@ -218,9 +648,129 @@
       "sha256": "e8dc9898d178a65704651ef2507c055a608d78e19735470e1668864e8f55efd2"
     },
     {
+      "path": "UnityProject/Assets/Soccer/Scripts.meta",
+      "bytes": 172,
+      "sha256": "ad9693bdb5def42ddc095c984b61535542a866a5afd64f079f6b9715aab13eb0"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerAcceptanceRunner.cs",
+      "bytes": 40963,
+      "sha256": "5120848f6b6b6d786306bdd21ad743e69c1883c4e1ca0e7248bcb1cd25542ac1"
+    },
+    {
       "path": "UnityProject/Assets/Soccer/Scripts/SoccerAcceptanceRunner.cs.meta",
       "bytes": 59,
       "sha256": "5f15fb43ef848bf3ab347d12631c8ef0c4ed6efd5c4f0e16163d42ba1f0d0647"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerAgentAI.cs",
+      "bytes": 14193,
+      "sha256": "75a170318a1346f65374e92c3eb6d995fa4f6f87ae855e9b14cfc534cff0c04b"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerAgentAI.cs.meta",
+      "bytes": 59,
+      "sha256": "a9ed85824f990a9df63bac21f95503bd2f98e51fcaf1164eacb31ef5bc89672b"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerBall.cs",
+      "bytes": 5690,
+      "sha256": "afe6fde7fba947164bcd4b60d95d41da34ba793050d9136dea53079602974cd1"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerBall.cs.meta",
+      "bytes": 59,
+      "sha256": "ae7364d3fa4f8db8632975c61856683da9021c6081a28a76c1e3c4d7651ff4a8"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerCameraController.cs",
+      "bytes": 2820,
+      "sha256": "b69154424ffc155caf5c3d0d42ee69149f258440fcac65170a4857230379f870"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerCameraController.cs.meta",
+      "bytes": 59,
+      "sha256": "a98f1ead08b973130f0a9061e022025a8b94d283e57c75decf21a5336624818d"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerFootPlant.cs",
+      "bytes": 18961,
+      "sha256": "d65a5cb037dba9cb1245669970ef702623333258c74168b9499de1224a045ca5"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerFootPlant.cs.meta",
+      "bytes": 59,
+      "sha256": "f995dc80ab40653e8ed94d975a1e6f0cc200c9e896bdbd183243436a43a651fb"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerGame.cs",
+      "bytes": 29790,
+      "sha256": "c29fbea3e4ee815d125011d181c7cd46025feef8d19c23c2ac841d3864055c99"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerGame.cs.meta",
+      "bytes": 59,
+      "sha256": "4cc395e20c63274039f94e44983a0b8c508525ca3e273b56f113548df6613a1b"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerHud.cs",
+      "bytes": 4730,
+      "sha256": "51c30da0d8ea6785785b4fc7e13d1673845eeef9ebddbb158f5c49d084514aff"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerHud.cs.meta",
+      "bytes": 59,
+      "sha256": "0c514aac37aabafa37f73329f4ad5473fa2858f74b9057ed6a55bf01828e3e6a"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerRobot.cs",
+      "bytes": 28608,
+      "sha256": "a369a2995660c8bbed54340b59052bfabb692fe44f6fb3ec893c9767b72a3138"
+    },
+    {
+      "path": "UnityProject/Assets/Soccer/Scripts/SoccerRobot.cs.meta",
+      "bytes": 59,
+      "sha256": "6d0ce6526947b80a903b6fc2882d1569400c3e32d7797f6f81b8428c4ba86d21"
+    },
+    {
+      "path": "UnityProject/Assets/UniversalRenderPipelineGlobalSettings.asset",
+      "bytes": 27251,
+      "sha256": "aa45f3b973607174125adb42337b92f083d459d47058aa63421cf56ebcac8d18"
+    },
+    {
+      "path": "UnityProject/Assets/UniversalRenderPipelineGlobalSettings.asset.meta",
+      "bytes": 189,
+      "sha256": "5674b6c14ac5b092a8f7a93a593b8932d5482f602161a7df1e36e70ac020d6c3"
+    },
+    {
+      "path": "UnityProject/Packages/packages-lock.json",
+      "bytes": 12531,
+      "sha256": "13cf89800a6b6c708b7c9682eb352ba7a846d2e1f91640f2957e13ba9b9e1d97"
+    },
+    {
+      "path": "UnityProject/ProjectSettings/AudioManager.asset",
+      "bytes": 523,
+      "sha256": "9543c41dbfc7d3951217c4dd9481ed026eb8e529b85ecf4463969a0fea747729"
+    },
+    {
+      "path": "UnityProject/ProjectSettings/ClusterInputManager.asset",
+      "bytes": 114,
+      "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623"
+    },
+    {
+      "path": "UnityProject/ProjectSettings/DynamicsManager.asset",
+      "bytes": 1575,
+      "sha256": "19036aa3670f6dc8f573501d8a26ad1839f39dc669979d5d3b17bb069d1e3248"
+    },
+    {
+      "path": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+      "bytes": 269,
+      "sha256": "f9ed1cae33bc562aa6c54a40a73d8576aaf3da6aaabdec7a179ea1266008bb51"
+    },
+    {
+      "path": "UnityProject/ProjectSettings/EditorSettings.asset",
+      "bytes": 1705,
+      "sha256": "29bbdc2f4f4b92e0bead569cec8e85c94692d2644827de2b935cee5443559bc0"
     },
     {
       "path": "UnityProject/ProjectSettings/GraphicsSettings.asset",
@@ -308,539 +858,19 @@
       "sha256": "11251dae0356b6f43dd2c67bb511f6b7ecda4e5de425186bba3297e6f3dc1c6f"
     },
     {
-      "path": "UnityProject/ProjectSettings/EditorSettings.asset",
-      "bytes": 1705,
-      "sha256": "29bbdc2f4f4b92e0bead569cec8e85c94692d2644827de2b935cee5443559bc0"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerAcceptanceRunner.cs",
-      "bytes": 40963,
-      "sha256": "5120848f6b6b6d786306bdd21ad743e69c1883c4e1ca0e7248bcb1cd25542ac1"
-    },
-    {
-      "path": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
-      "bytes": 269,
-      "sha256": "f9ed1cae33bc562aa6c54a40a73d8576aaf3da6aaabdec7a179ea1266008bb51"
-    },
-    {
-      "path": "UnityProject/ProjectSettings/ClusterInputManager.asset",
-      "bytes": 114,
-      "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerAgentAI.cs",
-      "bytes": 14193,
-      "sha256": "75a170318a1346f65374e92c3eb6d995fa4f6f87ae855e9b14cfc534cff0c04b"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerAgentAI.cs.meta",
-      "bytes": 59,
-      "sha256": "a9ed85824f990a9df63bac21f95503bd2f98e51fcaf1164eacb31ef5bc89672b"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerBall.cs",
-      "bytes": 5690,
-      "sha256": "afe6fde7fba947164bcd4b60d95d41da34ba793050d9136dea53079602974cd1"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerBall.cs.meta",
-      "bytes": 59,
-      "sha256": "ae7364d3fa4f8db8632975c61856683da9021c6081a28a76c1e3c4d7651ff4a8"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerCameraController.cs",
-      "bytes": 2820,
-      "sha256": "b69154424ffc155caf5c3d0d42ee69149f258440fcac65170a4857230379f870"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerCameraController.cs.meta",
-      "bytes": 59,
-      "sha256": "a98f1ead08b973130f0a9061e022025a8b94d283e57c75decf21a5336624818d"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerFootPlant.cs",
-      "bytes": 18961,
-      "sha256": "d65a5cb037dba9cb1245669970ef702623333258c74168b9499de1224a045ca5"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerFootPlant.cs.meta",
-      "bytes": 59,
-      "sha256": "f995dc80ab40653e8ed94d975a1e6f0cc200c9e896bdbd183243436a43a651fb"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerGame.cs",
-      "bytes": 29790,
-      "sha256": "c29fbea3e4ee815d125011d181c7cd46025feef8d19c23c2ac841d3864055c99"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerGame.cs.meta",
-      "bytes": 59,
-      "sha256": "4cc395e20c63274039f94e44983a0b8c508525ca3e273b56f113548df6613a1b"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerHud.cs",
-      "bytes": 4730,
-      "sha256": "51c30da0d8ea6785785b4fc7e13d1673845eeef9ebddbb158f5c49d084514aff"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerHud.cs.meta",
-      "bytes": 59,
-      "sha256": "0c514aac37aabafa37f73329f4ad5473fa2858f74b9057ed6a55bf01828e3e6a"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerRobot.cs",
-      "bytes": 28608,
-      "sha256": "a369a2995660c8bbed54340b59052bfabb692fe44f6fb3ec893c9767b72a3138"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer/Scripts/SoccerRobot.cs.meta",
-      "bytes": 59,
-      "sha256": "6d0ce6526947b80a903b6fc2882d1569400c3e32d7797f6f81b8428c4ba86d21"
-    },
-    {
-      "path": "UnityProject/Packages/manifest.json",
-      "bytes": 2032,
-      "sha256": "a09a635e2457aac52149ce96c792c0ea41408a05c34c9bfcc2eb39e3831880cc"
-    },
-    {
-      "path": "UnityProject/Packages/packages-lock.json",
-      "bytes": 12531,
-      "sha256": "13cf89800a6b6c708b7c9682eb352ba7a846d2e1f91640f2957e13ba9b9e1d97"
-    },
-    {
-      "path": "UnityProject/ProjectSettings/AudioManager.asset",
-      "bytes": 523,
-      "sha256": "9543c41dbfc7d3951217c4dd9481ed026eb8e529b85ecf4463969a0fea747729"
-    },
-    {
-      "path": "UnityProject/ProjectSettings/DynamicsManager.asset",
-      "bytes": 1575,
-      "sha256": "19036aa3670f6dc8f573501d8a26ad1839f39dc669979d5d3b17bb069d1e3248"
-    },
-    {
       "path": "UnityProject/ProjectSettings/VersionControlSettings.asset",
       "bytes": 172,
       "sha256": "e199cdfa6a8f2bf33cfd47e549198f13e3eb2a5099e908fdb4e0f14d939ccc6b"
     },
     {
-      "path": "UnityProject/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta",
-      "bytes": 189,
-      "sha256": "f61661d8bc8dbe531daf09f6211ef978c7ba145c9207c8e76524396ae0722d7c"
-    },
-    {
-      "path": "UnityProject/Assets/Settings/PC_RPAsset.asset.meta",
-      "bytes": 189,
-      "sha256": "bb469b9b6f318e9e9bed29c3b2e73e79371c04743c6f95dd6603941f1cd3e53e"
-    },
-    {
-      "path": "Evidence/m1-contact-0.50.json",
-      "bytes": 5883,
-      "sha256": "e94655bc5c0e6d846fa0dc4a5746c3c2042ea9ab49bc92922104b56de2e45714"
-    },
-    {
-      "path": "Evidence/m1-contact-1.00.json",
-      "bytes": 5883,
-      "sha256": "dba2bd825b8bc5674eba4d4b5329156c78486e879a2ac94c9b02272860a89c9c"
-    },
-    {
-      "path": "Evidence/m1-visual-0.25.json",
-      "bytes": 6496,
-      "sha256": "b4bd3ac7c2d26dd57d5f0bde0b6b227d91f82d66e4563ee727fd91c2e200a93c"
-    },
-    {
-      "path": "Evidence/m1-visual-final-0.25.json",
-      "bytes": 6544,
-      "sha256": "96af53c19be274a3314fc3ec4a72ce3ab8ffc46f4129b1c4213c1216248f1ba7"
-    },
-    {
-      "path": "Evidence/m1-visual-window-0.25.json",
-      "bytes": 6495,
-      "sha256": "805b57a3092f6c0e6f04a791342b9bb3ba7b4a642d3e8488a1c0b1d4f078db61"
-    },
-    {
-      "path": "Evidence/m1-windows-build.json",
-      "bytes": 260,
-      "sha256": "96970ef7c48741d8fd1d79c180429530abeaa6c1cccbbb623f7a87146452f56d"
-    },
-    {
-      "path": "Evidence/match-acceptance-0.25.json",
-      "bytes": 247136,
-      "sha256": "07a56ef7f9650631833fcb24732235825ea870ccb3252c2584f5e7abd6e38027"
-    },
-    {
-      "path": "Evidence/match-acceptance-0.50.json",
-      "bytes": 247141,
-      "sha256": "53cf453ccb70206ea7b96fb79536895e3b0bd4fde3452c12185fca07a00facb6"
-    },
-    {
-      "path": "Evidence/match-acceptance-1.00.json",
-      "bytes": 260472,
-      "sha256": "caedfa9fe76679442c86607dea9d8e91ed98413aa5d2d8f955c384cf5e54b21b"
-    },
-    {
-      "path": "Evidence/match-windows-build.json",
-      "bytes": 633,
-      "sha256": "5cf41b122fc1ad3c1b2172cb742490f79f4c02c81a57f82e50400081dce2c524"
-    },
-    {
-      "path": "Evidence/package-verification-1.00.json",
-      "bytes": 247142,
-      "sha256": "5e68c7ee81b03916ea62fb1be7894c391d63bb69c43276544dfd6247d17394a6"
-    },
-    {
-      "path": "Evidence/match-captures/match-default-four-robot-play-1.00.png",
-      "bytes": 144395,
-      "sha256": "7d532cf38c880d5fcab0603fb61aa3f44530b1a8d53319c55ae1733066908e7d"
-    },
-    {
-      "path": "Evidence/match-captures/match-receive-1.00.png",
-      "bytes": 142189,
-      "sha256": "5ff6d5c5f76ec9bcd96a4f7489e9a7d9cfa1250093e0d0e434ac91faae026b2f"
-    },
-    {
-      "path": "Evidence/match-captures/match-shot-contact-1.00.png",
-      "bytes": 144374,
-      "sha256": "fd246936218dbe497cce0da165a15c065627a7cb472fe8c48b9468aa9ddaf35a"
-    },
-    {
-      "path": "Evidence/match-captures/match-tackle-contact-1.00.png",
-      "bytes": 144011,
-      "sha256": "5126c7cec97cd6027dcd8527206e7aaa7810b7d8b6e823ba111d7e728926d1a6"
-    },
-    {
-      "path": "Evidence/MotionReview/PASS-RECEIVE-GEOMETRY.md",
-      "bytes": 5180,
-      "sha256": "0a58a61f0457d84393a8cc395ccd0d920337a16d9c2acea4c8b8547b25aecfd0"
-    },
-    {
-      "path": "Evidence/MotionReview/REPORT.md",
-      "bytes": 5528,
-      "sha256": "e0e63e0b048bad49a7431cd974a560bcd8856aba9561e2ad4b824b897c99008a"
-    },
-    {
-      "path": "Evidence/m1-contact-0.25.json",
-      "bytes": 5884,
-      "sha256": "ab9b7b794fb8868ff4624629011aeef032054f07bf816691bb3596c7cdb7415c"
-    },
-    {
-      "path": "Release/receipt.json",
-      "bytes": 1974,
-      "sha256": "cf6bbb80bde9c713ef636b837721ec46945fa2674db89763cb1e5f29da445c13"
-    },
-    {
-      "path": "Evidence/m1-acceptance-1.00.json",
-      "bytes": 6542,
-      "sha256": "8f5227f2edef6d545b93fbe4ed903090ec6596f6c982c31ab96d3efa1dfbd0a9"
-    },
-    {
-      "path": "Evidence/m1-acceptance-0.25.json",
-      "bytes": 6543,
-      "sha256": "c6396a6a9821570423bb6050c3bc7159694460b43d02c54c1db597075480e9a6"
-    },
-    {
-      "path": "DEVELOPMENT-LOG.md",
-      "bytes": 7710,
-      "sha256": "a7a6f3115716613b30898c5f4f986287941a080b58246c06122bb5bbaf273be7"
-    },
-    {
-      "path": "M1-RESULTS.md",
-      "bytes": 2193,
-      "sha256": "57c178aa09797908984d7ffed0038159b75a0eeec829d3038ec9252a9d03c1d0"
-    },
-    {
-      "path": "PROJECT-BRIEF.md",
-      "bytes": 6498,
-      "sha256": "dcf2b7569c051387293fa21d7a359d8cc4af19a04cd4b7b642b449c6fe746878"
-    },
-    {
-      "path": "PROVENANCE.md",
-      "bytes": 3624,
-      "sha256": "9d5424f4ec91d0d91d782c47244eb4d920db97ec3f1b52d97c86bc256abb7cf9"
-    },
-    {
-      "path": "README.md",
-      "bytes": 5640,
-      "sha256": "662d9bbdf341ec9b91bfd13ef6104aa5568b60188db9e533376aa790ea5ffbe5"
-    },
-    {
-      "path": "RELEASE-GUIDE.md",
-      "bytes": 4085,
-      "sha256": "fba7644bdaf0f20fcad915c4ca61989d1c2cfec85fae37fdea41c2b81aafe16d"
-    },
-    {
-      "path": "RELEASE-NOTES.md",
-      "bytes": 3870,
-      "sha256": "9ba80ba1c31abd6ccff2bbfc383cc7f692246329d7fe01bc686d7c5de67d0ae1"
-    },
-    {
-      "path": "SPEC.md",
-      "bytes": 18925,
-      "sha256": "83a60fca0a6ba5aeae557561a9b73d993bdfbd2feda208e99a69eca149f8bada"
-    },
-    {
-      "path": "Evidence/ball-radius-doubled-acceptance-1.00.json",
-      "bytes": 6536,
-      "sha256": "845a304ea4ac71eb8ccdcd9dae0fd1e6d9dda55949e57134ebb3b5ec52ae8b57"
-    },
-    {
-      "path": "Evidence/ball-size-acceptance-1.00.json",
-      "bytes": 6464,
-      "sha256": "a1cbe4d4439033eac98d76fbd10a659533025f05f528c481b91afe48e18a453c"
-    },
-    {
-      "path": "Evidence/camera-controls-acceptance-1.00.json",
-      "bytes": 6536,
-      "sha256": "465eebb456cf678b7471c2b531f6a4c1dab508dd7da08fd0e3527be9a75beaf7"
-    },
-    {
-      "path": "Evidence/camera-tilt-range-acceptance-1.00.json",
-      "bytes": 6536,
-      "sha256": "3836aa817462dd6a49fcf465a3365372598ab00d9be8f893cebf736c92488c04"
-    },
-    {
-      "path": "Evidence/full-court-camera-acceptance-1.00.json",
-      "bytes": 6536,
-      "sha256": "6bde4e17d3929f4277e00113d977799886278105f1f0b145d7a687a959049e88"
-    },
-    {
-      "path": "Evidence/kick-assist-acceptance-0.25.json",
-      "bytes": 6500,
-      "sha256": "320ac49867a4b7f1b91fcfecec46ce83bcfa14f89cd4f45e3bfed14524ae136f"
-    },
-    {
-      "path": "Evidence/kick-assist-acceptance-0.50.json",
-      "bytes": 6499,
-      "sha256": "75c5a2d212214e9f79eb1b6ea69a1464cb8319d93a2b96154ef792e46f49f5fd"
-    },
-    {
-      "path": "Evidence/kick-assist-acceptance-1.00.json",
-      "bytes": 6499,
-      "sha256": "7b43680447aca1e6830a0119debd5e7a060ea6be7b37f14a4b3fa13372445e4a"
-    },
-    {
-      "path": "Evidence/m0-rig-and-motion.json",
-      "bytes": 904,
-      "sha256": "8e2c2b999a59e6970ecc9ef05f5f2f8d41d497d5d16d45292b04ed83d824bc49"
-    },
-    {
-      "path": "Evidence/m1-acceptance-0.50.json",
-      "bytes": 6542,
-      "sha256": "f9b73f7c87a1dbe41d84d51670f143ce8c52cb2ddd30e2df0ebca9174dacb903"
-    },
-    {
-      "path": "UnityProject/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
-      "bytes": 27389,
-      "sha256": "7a3fad2904f2c49970ef35147b8c6e9327635d191a27b0a681512a95570e6d34"
-    },
-    {
-      "path": "setup/release_export_source.ps1",
-      "bytes": 13712,
-      "sha256": "b78e0009525f2c286103fa408cecdb743ef276eaa027dc2abfb0b0f4858232e2"
-    },
-    {
-      "path": "setup/release_verify.ps1",
-      "bytes": 8348,
-      "sha256": "06499eaf01f6b1e6baf37f4ba00ec04aba43b5b914839cea585af4848a2662ff"
-    },
-    {
-      "path": "UnityProject/Assets/UniversalRenderPipelineGlobalSettings.asset",
-      "bytes": 27251,
-      "sha256": "aa45f3b973607174125adb42337b92f083d459d47058aa63421cf56ebcac8d18"
-    },
-    {
-      "path": "UnityProject/Assets/UniversalRenderPipelineGlobalSettings.asset.meta",
-      "bytes": 189,
-      "sha256": "5674b6c14ac5b092a8f7a93a593b8932d5482f602161a7df1e36e70ac020d6c3"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot.meta",
-      "bytes": 172,
-      "sha256": "ebba6ab7ab337950411c13ae592197426833fef59a435bb46b9d011ee06a30e2"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/RoboPlayer.fbx",
-      "bytes": 1567068,
-      "sha256": "45438bd9d54f8b98b2e86da2d85fa3dd410d7121e496de5b5f1531d8fc78d373"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/RoboPlayer.fbx.meta",
-      "bytes": 2993,
-      "sha256": "fcab3f3ca811797a9ff8ef836580a896dc0330e440d069f63ca577e853cc5446"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbm.meta",
-      "bytes": 172,
-      "sha256": "7cbab1fc547fbf57355e8983c3019269daf695b3ca4a90d104851810242dd3c9"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbx",
-      "bytes": 1894860,
-      "sha256": "58c5414b36e76b9eee3c9be0631a5225c4d1e624f6c5625ce1c69951315c0817"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbx.meta",
-      "bytes": 10307,
-      "sha256": "a09fd315320ada9c7c3272061906247fc6b5e72ebc0695bd890aa134890f04ea"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/robot-basecolor.png",
-      "bytes": 5595958,
-      "sha256": "4bafab5b32ef29a6e1d45dfc522fd75c0ad6881b8d1f707a7ae7fa0018aa561c"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/robot-basecolor.png.meta",
-      "bytes": 3007,
-      "sha256": "4cd94d9fc297eb98d37818c95a6a12b7a7d581a27d1752acffb6802d9b316df7"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbm/robot-basecolor.png",
-      "bytes": 5595958,
-      "sha256": "4bafab5b32ef29a6e1d45dfc522fd75c0ad6881b8d1f707a7ae7fa0018aa561c"
-    },
-    {
-      "path": "UnityProject/Assets/Art/Robot/RoboPlayerSoccer.fbm/robot-basecolor.png.meta",
-      "bytes": 3007,
-      "sha256": "7283a0acb0ed095f4c1c5ff479c2577a896f8a48de4ac419b366799fefd182c5"
-    },
-    {
-      "path": "UnityProject/Assets/Settings/DefaultVolumeProfile.asset",
-      "bytes": 24035,
-      "sha256": "463776c51ae49d4fef980e8fd268081b2f505610d79315003faae1acff8f4115"
-    },
-    {
-      "path": "UnityProject/Assets/Settings/DefaultVolumeProfile.asset.meta",
-      "bytes": 189,
-      "sha256": "efbcb026cee6b8e32fdf27018c06b0515296a6ccbb43969e792fea270310700a"
-    },
-    {
-      "path": "UnityProject/Assets/Settings/PC_Renderer.asset",
-      "bytes": 3439,
-      "sha256": "3d0b01d8ded3327263b6690be128a3de58d17c514943ae42fe743a3e084a9c79"
-    },
-    {
-      "path": "UnityProject/Assets/Settings/PC_Renderer.asset.meta",
-      "bytes": 189,
-      "sha256": "b5df8ddb2708c6ed4c133a5ff9ee95a75cc20e4ee3ed6181366a61aedbaf31ec"
-    },
-    {
-      "path": "UnityProject/Assets/Settings/PC_RPAsset.asset",
-      "bytes": 4635,
-      "sha256": "898548aaa793a78d30a56e80e647b2b277bd81a6a4f39d6db7b36008a929c276"
-    },
-    {
-      "path": "UnityProject/Assets/Soccer.meta",
-      "bytes": 172,
-      "sha256": "45ec5266bb0a5a93cab3322a4144db563ae0b1d7651ade21f5168a6d2d108b35"
-    },
-    {
-      "path": "setup/release_package.ps1",
-      "bytes": 12123,
-      "sha256": "a5e20f20ab9e99a4debd4c58aedbbc85042d9df3311fc9c0541ac43d9658ac7d"
-    },
-    {
-      "path": "UnityProject/Assets/Settings.meta",
-      "bytes": 172,
-      "sha256": "707d8c619d8000a04f8bed37a35c64ee60e007de441630957ac0997ddf186e99"
-    },
-    {
-      "path": "UnityProject/Assets/README.md",
-      "bytes": 268,
-      "sha256": "3252af8bd7e484079eab2b369b86dcb45d666e2b36c6ebb5222c9458824532db"
-    },
-    {
-      "path": "setup/release-public-allowlist.txt",
-      "bytes": 1683,
-      "sha256": "077d866863a990d0d67302fce3839e846359987276d8ae63a0b8d09c5876ad26"
-    },
-    {
-      "path": "setup/release-test/run-release-tests.ps1",
-      "bytes": 7404,
-      "sha256": "3b8fd57a27e904e8283ee46e27a3cdc2b9c57145743f887696168e4945ff4a87"
-    },
-    {
-      "path": "SourceAssets/Robot/RoboPlayer.blend",
-      "bytes": 11046624,
-      "sha256": "9cf174971e5bd65165f988a39089dd46694e163ba9138cc8d4efa8000610a456"
-    },
-    {
-      "path": "SourceAssets/Robot/RoboPlayerSoccer.blend",
-      "bytes": 5408527,
-      "sha256": "663b3ed7c52c7e1655b5d7427ea5c6df9f66f50413a48403348a1df9bc9af4af"
-    },
-    {
-      "path": "SourceAssets/Robot/sanitize_texture_paths.py",
-      "bytes": 6901,
-      "sha256": "a5b8857b66102cac99710978ea73e61d80ba5359c4f3077b46133d2a862c76b3"
-    },
-    {
-      "path": "SourceAssets/Robot/soccer_motion.py",
-      "bytes": 11127,
-      "sha256": "545c7a7e1e5affabbfebb55bfccf00724556b75ea0e56183a27a07e25e3d41ad"
-    },
-    {
-      "path": "SourceAssets/Robot/textures/Image_0.jpg",
-      "bytes": 2840866,
-      "sha256": "27d5384bb48f66a21a86eba0c375b1bf2522c3230ee57263ff921264ac732bf9"
-    },
-    {
-      "path": "SourceAssets/Robot/textures/Image_1.jpg",
-      "bytes": 1321558,
-      "sha256": "dc729f6ce6fd06b94ca0a747c7f721a67d1cde2d374e2dc85ff8426da61f5a80"
-    },
-    {
-      "path": "SourceAssets/Robot/textures/Image_2.jpg",
-      "bytes": 1824230,
-      "sha256": "8c1d268088a896e1f48fc52721fb34743be5fee26f9f116b5998326bfa7ec90c"
-    },
-    {
-      "path": "SourceAssets/Robot/textures/Image_3.jpg",
-      "bytes": 66368,
-      "sha256": "b9949d5ac413976a2192b4a375c4bdfcf3bdf31eeb8d3063a090ceea935ebada"
+      "path": "UnityProject/ProjectSettings/VFXManager.asset",
+      "bytes": 525,
+      "sha256": "2973a6af930e142f62cde00076beda8a3cc3a66d9bfcde7a58ba7d4be2251c26"
     },
     {
       "path": "UnityProject/UnityProject.slnx",
       "bytes": 125,
       "sha256": "9893ccd55a72201c1dc024ca613d837577205570ea963b5ca0e0edeb5eb9458f"
-    },
-    {
-      "path": "UnityProject/.vscode/extensions.json",
-      "bytes": 75,
-      "sha256": "99ad80dd86d99326e354f18a4a7f77a38434d39dad9c3503b3a9594e08bb01db"
-    },
-    {
-      "path": "UnityProject/.vscode/launch.json",
-      "bytes": 178,
-      "sha256": "314af30527d85081412909337f20badb462068cfd21ce03a89e406df22e38afa"
-    },
-    {
-      "path": "UnityProject/.vscode/settings.json",
-      "bytes": 1834,
-      "sha256": "d196838baf0950a45970c8956423c1e8a9b5f207cea98162f08d12682b222319"
-    },
-    {
-      "path": "UnityProject/Assets/Art.meta",
-      "bytes": 172,
-      "sha256": "cd5b942bc72e9aaa574475ab615bf4c58e376e14d463451d7b65773df982b03e"
-    },
-    {
-      "path": "UnityProject/Assets/DefaultVolumeProfile.asset",
-      "bytes": 20476,
-      "sha256": "471e057ca2f1993c9deea80f2d6e6dc783c042fcaadce1c2b28ae6df6f78c7c4"
-    },
-    {
-      "path": "UnityProject/Assets/DefaultVolumeProfile.asset.meta",
-      "bytes": 189,
-      "sha256": "95310a467e13ebef6e44dc09f88c6a33926f868fa507680fabeb0dc7b6d49302"
-    },
-    {
-      "path": "UnityProject/Assets/README.md.meta",
-      "bytes": 158,
-      "sha256": "1a077d635cf903efbce1b36800f08efa88f345cdefb2552e7a5ffadaf084e80b"
-    },
-    {
-      "path": "UnityProject/ProjectSettings/VFXManager.asset",
-      "bytes": 525,
-      "sha256": "2973a6af930e142f62cde00076beda8a3cc3a66d9bfcde7a58ba7d4be2251c26"
     }
   ]
 }
